@@ -69,4 +69,11 @@ nav a:hover {
     h2, h3, h1 {
         grid-column: span 1;
     }
+    nav {
+        grid-template-columns: 1fr;
+        row-gap: 8px;
+    }
+    main {
+        width: 100%;
+    }
 }
